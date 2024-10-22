@@ -1,30 +1,5 @@
 import streamlit as st  # type: ignore
 
-'''
-# Title
-
-st.title("Streamlit App")
-
-# Text input
-
-name = st.text_input("Enter name:")
-
-# Slider input for age
-
-age = st.slider("Select your age:", 20, 25)
-
-# Display a message
-
-st.write(f"Hello, {name}! You are {age} years old.")
-
-# Button
-
-if st.button("Submit"):
-    st.write(f"Thank you for submitting your information!")
-    st.balloons()  # Show balloons when button is clicked
-    st.stop()  # Stop the app after button is clicked
-
-'''
 # Define a simple user authentication function
 def authenticate(username, password):
     # Hardcoded credentials (you can modify or expand this logic)
@@ -54,6 +29,10 @@ def login_form():
 
 # Run the login form
 login_form()
+if st.button("Submit"):
+    st.write(f"Thank you for submitting your information!")
+    st.balloons()  # Show balloons when button is clicked
+    st.stop()  # Stop the app after button is clicked
 
     
      
