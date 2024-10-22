@@ -17,3 +17,4 @@ if submit_button:
     st.write(f"**Name:** {name}")
     st.write(f"**Email:** {email}")
     st.write("Registration Successful!")
+    st.balloons()  # Show balloons when button is clicked
