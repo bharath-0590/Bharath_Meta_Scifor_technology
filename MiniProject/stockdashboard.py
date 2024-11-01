@@ -17,7 +17,7 @@ available_stocks = (
     'DIS', 'PFE', 'INTC', 'SBUX', 'GS', 'GE', 'IBM', 'C', 'BA', 'HON', 'CAT'
 )
 selected_stocks = st.sidebar.multiselect("Select Stocks to Compare", available_stocks, default=['AAPL', 'MSFT', 'GOOGL']) 
-period = st.sidebar.selectbox("Period", ["1d", "5d", "1mo", "3mo", "6mo", "1y", "5y", "max"])
+period = st.sidebar.selectbox("Period", ["5d", "1mo", "3mo", "6mo", "1y", "5y", "max"])
 moving_avg_short = st.sidebar.number_input("Short Moving Average (days)", value=50, min_value=1, step=1)
 moving_avg_long = st.sidebar.number_input("Long Moving Average (days)", value=100, min_value=1, step=1)
 
