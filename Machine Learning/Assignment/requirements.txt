@@ -1,0 +1,9 @@
+@machinelearning
+  @assignment
+    #logisticregression
+    #navie'sbayesalgorithm
+#pandas
+#numpy
+#seaborn
+#matplotlib
+#sklearn
