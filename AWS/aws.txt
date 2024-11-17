@@ -1,0 +1,7 @@
+@AWS
+#cloudcomputing
+#services
+#types
+#moreinformative
+#trainee
+#datascience  
