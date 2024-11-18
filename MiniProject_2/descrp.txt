@@ -1,0 +1,8 @@
+@ Email Spam Detection Model
+# machinelearning
+# algorithms
+# python-libraries
+# dataset
+# train_and_test-data
+#prediction 
+  
