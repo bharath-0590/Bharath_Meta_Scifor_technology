@@ -1,10 +1,12 @@
 @FItness Tracker System
-
+#machine learning 
+#Supervised&Unsupervised 
 #streamlit
 #pandas
 #numpy
 #skitlearn
 #seaborn
+#matplotlib 
 #classificationmodels 
 #logistic
 #randomforest
