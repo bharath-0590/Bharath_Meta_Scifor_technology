@@ -11,7 +11,7 @@ st.title("Fitness Tracker System")
 # Load the trained model
 @st.cache
 def load_model():
-    with open('decision_tree_model.pkl', 'rb') as file:
+    with open("C:\Users\ASUS\OneDrive\Downloads\Fitness_scaler_correct.pkl", 'rb') as file:
         model = pickle.load(file)
     return model
 
