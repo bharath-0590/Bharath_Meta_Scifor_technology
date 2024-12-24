@@ -1,7 +1,12 @@
 @Data Science
 @Python
 @machine learning
-
+#importing 
+@Streamlit
+#pandas
+#pickle
+#numpy
+#skitlearn
 #objective
 #introduction
 #loaddataset
