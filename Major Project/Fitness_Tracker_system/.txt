@@ -1,0 +1,15 @@
+@Data Science
+@Python
+@machine learning
+
+#objective
+#introduction
+#loaddataset
+#datacleaning
+#EDA
+#Datatransformation
+#modelselection
+#modeltraining
+#modelEvaluation
+#savethemodel
+#datavisualizations
