@@ -1,11 +1,14 @@
-@FItness Tracker System
+@FItness Tracker System 
+
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+
 #machine learning 
 #Supervised&Unsupervised 
-#streamlit
-#pandas
-#numpy
-#skitlearn
-#seaborn
 #matplotlib 
 #classificationmodels 
 #logistic
