@@ -1,5 +1,7 @@
 #Fitnness Tracker System
 
+pip 
+installation
 streamlit
 pandas
 numpy
