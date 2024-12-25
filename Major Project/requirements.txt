@@ -1,9 +1,9 @@
 #Fitnness Tracker System
 
-@streamlit
-@p@andas
-@numpy
-@scikit-learn
-@matplotlib
-@seaborn
-@warnings 
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+warnings 
