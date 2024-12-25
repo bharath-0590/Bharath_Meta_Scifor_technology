@@ -1,0 +1,9 @@
+#fitness Tracker System
+
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+warnings
