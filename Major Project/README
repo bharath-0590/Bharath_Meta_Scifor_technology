@@ -1,9 +1,0 @@
-@FITNESS_TRACKER_SYSTEM
-
-streamlit
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-
