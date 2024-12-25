@@ -11,7 +11,7 @@ st.title("Fitness Tracker System")
 # Load the trained model
 @st.cache
 def load_model():
-    with open("C:\Users\ASUS\OneDrive\Downloads\Fitness_scaler_correct.pkl", 'rb') as file:
+    with open('decision_tree_model.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
@@ -43,7 +43,7 @@ def user_inputs():
         'Water_Intake (liters)': water_intake,
         'Fat_Percentage': fat_percentage
     }
-    return pd.DataFrame(df, index=[0])
+    return pd.DataFrame(data, index=[0])
 
 inputs = user_inputs()
 
@@ -64,7 +64,7 @@ st.write(f"Estimated Calories Burned: {prediction[0]:.2f}")
 # Visualization: Correlation Heatmap
 if st.button("Show Correlation Heatmap"):
     st.subheader("Correlation Heatmap of Dataset")
-    df = pd.read_csv('Gym_data.csv')  # Load your dataset
+    data = pd.read_csv('Gym_data.csv')  # Load your dataset
     correlation_matrix = data.corr()
     plt.figure(figsize=(10, 6))
     sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')
