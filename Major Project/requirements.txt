@@ -1,9 +1,11 @@
 #Fitness Tracker System
 
-pandas
-numpy
-scikit-learn
-streamlit
-matplotlib
-seaborn
+pip==24.3.1
+python==3.12.2
+streamlit==1.41.1
+pandas==2.2.3
+numpy==2.2.1
+scikit-learn==1.6.0
+matplotlib==3.10.0
+seaborn==0.13.2
 warnings 
