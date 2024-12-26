@@ -1,1 +1,12 @@
 Fitness Tracker System
+
+pandas
+numpy
+scikit-learn
+streamlit
+matplotlib
+seaborn
+warnings 
+MinMaxScaler 
+DecisionTreeRegressor
+make_regression
