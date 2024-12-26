@@ -1,5 +1,6 @@
 Fitness Tracker System
 
+os
 pandas
 numpy
 scikit-learn
