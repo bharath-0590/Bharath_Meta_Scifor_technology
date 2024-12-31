@@ -21,7 +21,7 @@ model = DecisionTreeRegressor()
 model.fit(X_train, y_train)
 
 # Save the fitted model
-with open('decision_tree_model.pkl', 'wb') as file:
+with open(r"C:\Users\ASUS\OneDrive\Desktop\Major_Project (Scifor Technologies)\decision_tree_model.pkl", 'wb') as file:
     pickle.dump(model, file)
 
 # Load the pre-trained model
